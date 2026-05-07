@@ -1,0 +1,45 @@
+{
+  "_comment": "与内置默认 part_library 等价的示例；可改 board / gap / parts",
+  "board": {
+    "width": 2000.0,
+    "height": 4000.0
+  },
+  "gap": 1.0,
+  "parts": [
+    {
+      "name": "rect_155x70",
+      "count": 25,
+      "shape": "rectangle",
+      "params": { "width": 155.0, "height": 70.0 },
+      "rotations": [0, 90]
+    },
+    {
+      "name": "eq_tri_160",
+      "count": 30,
+      "shape": "equilateral_triangle",
+      "params": { "side": 160.0 },
+      "rotations": [0, 60, 120, 180, 240, 300]
+    },
+    {
+      "name": "circle_r210",
+      "count": 40,
+      "shape": "circle",
+      "params": { "radius": 210.0, "resolution": 64 },
+      "rotations": [0]
+    },
+    {
+      "name": "trap_120_145_h70",
+      "count": 25,
+      "shape": "symmetric_trapezoid",
+      "params": { "top": 120.0, "bottom": 145.0, "height": 70.0 },
+      "rotations": [0, 90, 180, 270]
+    },
+    {
+      "name": "para_b240_h100",
+      "count": 50,
+      "shape": "parallelogram",
+      "params": { "base": 240.0, "height": 100.0, "shift": 80.0 },
+      "rotations": [0, 90, 180, 270]
+    }
+  ]
+}

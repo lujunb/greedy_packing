@@ -1,0 +1,21 @@
+{
+  "include": [
+    "src/**/*.py"
+  ],
+  "exclude": [
+    "**/venv/**",
+    "**/.venv/**",
+    "**/__pycache__/**",
+    "**/cache/**",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/site-packages/**",
+    "**/.cursor/**"
+  ],
+  "typeCheckingMode": "basic",
+  "reportUnknownMemberType": false,
+  "useLibraryCodeForTypes": false
+}
+
